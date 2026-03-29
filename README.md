@@ -15,4 +15,8 @@ go mod init github.com/mariolazzari/go-build3/nutrution
 go mod init github.com/mariolazzari/go-build3/trends
 ```
 
-##
+## Google translate
+
+```sh
+go mod init github.com/mariolazzari/go-build3/translate
+```
