@@ -1,5 +1,17 @@
 package main
 
+import "encoding/xml"
+
+type RSS struct {
+	XMLName xml.Name
+	Channel *Channel
+}
+
+type Channel struct {
+	Title    string
+	ItemList []Item
+}
+
 type News struct {
 	Headline     string
 	HeadlineLink string
